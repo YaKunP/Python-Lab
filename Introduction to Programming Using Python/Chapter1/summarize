@@ -1,0 +1,125 @@
+关键术语
+
+.py file (.py文件）
+
+assembler (汇编器)
+
+assembly language (汇编语言)
+
+bit (比特)
+
+bus (总线)
+
+byte (字节)
+
+cable modem (光缆调制解调器)
+
+calling a function (调用函数)
+
+central processing unit (CPU) (中央处理器)
+
+comment (注释)
+
+complier (编译器)
+
+console (控制台)
+
+dot pitch (点距)
+
+DSL(digital subscriber line) (DSL 数字用户线)
+
+encoding scheme (编码表)
+
+function (函数)
+
+hardware (硬件)
+
+high-level language (高级语言)
+
+IDLE (Interactive DeveLopment Environment) (IDLE 交互式开发环境)
+
+indentation (缩进)
+
+interactive mode (交互式模式)
+
+interpreter (解释器)
+
+invoking a function (调用函数)
+
+line comment (行注释)
+
+logic error (逻辑错误)
+
+low-level language(低级语言)
+
+machine language (机器语言)
+
+memory (内存)
+
+modem (调制解调器)
+
+module (模块)
+
+motherboard (主板)
+
+network interface card (NIC) (网络接口卡)
+
+operating syster (OS) (操作系统)
+
+pixel (像素)
+
+program (程序)
+
+runtime errors (运行时错误)
+
+screen resolution (屏幕分辨率)
+
+script file (脚本文件)
+
+script mode (脚本模式)
+
+software (软件)
+
+source code (源代码)
+
+source file (源文件)
+
+source program (源程序)
+
+statement (语句)
+
+storage device (存储设备)
+
+syntax errors (语法错误)
+
+syntax rules (语法规则)
+
+
+1. 计算机是一个存储和处理数据的电子设备
+2. 计算机包括硬件和软件
+3. 硬件是计算机中可以碰触的物理部分
+4. 计算机程序，也称为软件，是控制硬件并让硬件完成任务的不可见的指令集
+5. 计算机程序设计是指编写让计算机来完成的指令（即 代码）
+6. 中央处理器（CPU）是计算机的大脑。它从内存获取指令然后执行它们
+7. 计算机使用0和1是因为数字设备有两个稳定的电子状态：关和开，习惯上将它们表示成0和1
+8. 比特是二进制数0和1
+9. 字节是8比特构成的序列
+10. KB大约是1000字节，MB大约是100万字节，GB大约是10亿字节，而TB大约是万亿字节
+11. 内存存储的是CPU要执行的数据和程序指令
+12. 内存单元是一个有序字节序列
+13. 内存是不稳定的，因为一旦断电，没有保存的信息就会丢失
+14. 程序和数据被永久地保存在存储设备上，当计算机真要用到它们的时候被转移到内存
+15. 机器语言是一套嵌入每台计算机的原始指令集
+16. 汇编语言是一种低级程序设计语言，它使用助记符来表示每一条机器语言指令
+17. 高级语言很像英语，易于学习和编程
+18. 高级语言编写的程序称为代码
+19. 编译器是一个软件程序，它负责将源程序翻译成机器语言程序
+20. 操作系统（OS）是管理和控制计算机动作的程序
+21. 可以在windows、Unix和Mac上运行python
+22. python是解释性的，这意味着python解释每条语句，同时处理该语句
+23. 可以在python语句提示符">>>" 下交互地输入python语句，或者在一个文件中存储所有的代码，然后使用一条命令执行它
+24. 要从命令行运行python源文件，使用命令python filename.py
+25. python中，在一行前加一个#号的注释称为行注释， 而用三重引号（'''和'''）括住一行或几行称为段注释
+26. python源代码是区分大小写的
+27. 程序设计错误可以分为三种类型： 语法错误、运行时错误和逻辑错误。语法和运行时错误会导致程序意外终止。当程序没有完成
+它预期的任务时出现逻辑错误
