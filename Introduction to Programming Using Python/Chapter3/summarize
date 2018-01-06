@@ -1,0 +1,37 @@
+关键术语
+backslash (\) (反斜杠（\）)
+
+character encoding (字符编码)
+
+end-of-line （行尾）
+
+escape sequence （转义序列）
+
+line break （换行符）
+
+methods （方法）
+
+newline （换行符）
+
+object （对象）
+
+string （字符串）
+
+whitespace characters （空白字符）
+
+
+
+本章总结
+1. python提供数学函数：解释器里的abs、max、min、pow和round；math模块里的fabs、ceil、floor、exp、log、sqrt、sin、cos、
+acos、asin、tan、degree和radians。
+
+2. 一个字符串是一个字符序列。字符串的值可以用一对单引号或双引号括起来。python里并没有字符数据类型；
+单一字符的字符串代表一个字符。
+
+3. 转义序列是一种特殊的语法，它以“\”开始，再紧跟一个字母或者数字组合，以此来代表一个特殊的字符。
+
+4. 字符 ''、\"、\t和\n。
+
+5. python里所有的数据，包括数字和字符串都是对象。你可调用方法实现对象上的操作。
+
+6. 你可以使用format函数格式化一个数字或字符串，然后返回一个字符串的结果。
