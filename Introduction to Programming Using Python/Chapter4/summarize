@@ -1,0 +1,35 @@
+关键术语
+Boolean expressions (布尔表达式)
+
+Boolean value (布尔值)
+
+operator associativity (运算符结合方向)
+
+operator precedence (运算符优先级)
+
+random module (random 模块)
+
+selection statements (选择语句)
+
+short-circuit evalutation (短路计算)
+
+本章总结
+
+1. 一个布尔类型变量可以储存值True或False。
+
+2. 关系运算符是数字和字母一起工作的，产生的结果是一个布尔值。
+
+3. 布尔运算符and、or和not是在布尔值和变量上的操作。
+
+4. 当计算p1 and p2时，python首先计算p1，如果p1为True才计算p2；如果p1为False，那它就不再计算p2。and称为条件或短路AND运算符
+当计算p1 or p2时，python首先计算p1，如果p1为False才计算p2；如果p1为True，那它就不再计算p2。or称为条件或短路OR运算符
+
+5. 选择语句是用来解决二选一的程序设计问题。python有多种类型的选择语句：单向if语句、双向if-else语句、嵌套if-elif-else语句以及条件表达式
+
+6. 各种if选择语句都是根据布尔表达式作出控制决定的。根据表达式计算的结果为True还是False，这些语句会采用两个可能选项中的一种。
+
+7. 算术表达式中的运算符根据括号、运算符优先性以及运算符结合方向等规则决定运算顺序。
+
+8. 括号可以用来强制改变运算顺序。
+
+9. 首先计算优先级高的运算符。对于优先级一样的运算符，它们的结合方向决定了计算顺序。
