@@ -1,0 +1,54 @@
+关键术语
+
+break keyword (break关键字)
+
+condition-controlled loop（条件控制循环）
+
+continue keyword（continue关键字）
+
+count-controlled loop（计数器控制的循环）
+
+infinite loop（无限循环）
+
+input redirection（输入重定向）
+
+iteration（迭代）
+
+loop（循环）
+
+loop body（循环体）
+
+loop-continuation condition（循环继续条件）
+
+nested loop（嵌套循环）
+
+off-by-one error（偏离1的误差）
+
+output redirection（输出重定向）
+
+sentinel value(哨兵值)
+
+
+本章总结
+
+1. 两种类型的循环语句：while循环和for循环
+
+2. 循环中需要被重复执行的语句被称为循环体
+
+3. 循环体的一次执行被叫做循环的一次迭代
+
+4. 一个无限循环是指循环体的语句无限次被执行
+
+5. 在设计一个循环时，你不仅仅要考虑循环控制结构还要考虑循环体
+
+6. while循环首先检查循环体继续条件。如果条件为真，则执行循环体；否则，循环终止
+
+7. 哨兵值是一个特殊的值，它表明输入值的结束
+
+8. for循环是计数器控制的循环，循环体执行可预见次数遍
+
+9. break和continue两个关键字都可以被用在循环中
+
+10. break关键字立即结束包含这个break的最内层循环
+
+11. continue只终止当前迭代
