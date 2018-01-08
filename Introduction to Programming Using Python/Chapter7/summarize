@@ -1,0 +1,70 @@
+关键术语
+
+abstract data type(ADT)（抽象数据类型）
+
+accessor(getter)（访问器（获取器））
+
+actions（动作）
+
+class（类）
+
+class abstraction（类抽象）
+
+class encapsulation（类封装）
+
+class's contract（类的合约）
+
+client（客户端）
+
+constructor（构造方法）
+
+data fields（数据域）
+
+data hiding（数据隐藏）
+
+dot operator（圆点运算符）
+
+identity（实体）
+
+initializer（实例）
+
+instance（实例方法）
+
+anonymous object（匿名对象）
+
+attributes（属性）
+
+behavior（行为）
+
+instance variable（实例变量）
+
+instantiation（实例化）
+
+mutator(setter)（修改器（设置器））
+
+object-oriented programming（OOP）（面向对象程序设计）
+
+private data fields（私有数据域）
+
+private method（私有方法）
+
+property（属性）
+
+state（状态）
+
+Unified Modeling Language(UML)  统一建模语言（UML）
+
+
+本章总结
+
+1. 类是一种对象地模板、蓝图、合约和数据类型。它定义了对象的属性，并提供用于初始化对象的初始化程序和操作这些属性的方法
+
+2. 初始化程序总是以 __init__ 命名。每个方法的第一个参数包括类中的初始化程序，它指向调用这个方法的对象。按照惯例，这个参数以self命名
+
+3. 对象是类的一个实例。你使用构造方法来创建一个对象，使用圆点运算符，通过引用变量来访问对象成员
+
+4. 实例变量或方法属于类的一个实例。它的使用和每个独立的实例相关联
+
+5. 类中的数据域应该被隐藏以避免被更改并使类易于维护
+
+6. 你可以提供get方法或set方法使客户端可以查看或更改数据。通俗地讲，get方法被称为获取器（或访问器），而set方法被称为设置器（或修改器）
