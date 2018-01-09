@@ -1,0 +1,34 @@
+关键术语
+
+concatenation operator（连接运算符）
+
+index operator（下标运算符）
+
+repetition operator（复制运算符）
+
+iterable（可迭代的）
+
+operator overloading（运算符重载）
+
+slicing operator（截取运算符）
+
+
+本章总结
+
+1. 字符串对象是不可变的，不可以改变它的内容
+
+2. 可以使用python函数len、min和max来返回字符串的长度、最大元素和最小元素
+
+3. 可以使用下标运算符[]来指向字符串中的一个单独字符
+
+4. 可以使用连接运算符 + 来连接两个字符串，使用复制运算符 * 来复制一个字符串多次，使用截取运算符 [: ]来获取子串，
+   而使用运算符in和not in来判断一个字符是否在一个字符串中
+
+5. 使用比较运算符（==、!=、<、<=、>和>=）比较两个字符串
+
+6. 使用for循环迭代字符串中的所有字符
+
+7. 可以在字符串对象上使用像endswith、startwitch、isalpha、islower、isupper、lower、upper、find、
+count、replace和strip这样的函数
+
+8. 可以为重载操作定义特殊方法
