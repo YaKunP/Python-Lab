@@ -1,0 +1,36 @@
+关键术语
+
+aggregation（聚合）
+
+association（关联）
+
+composition （组合）
+
+dynamic binding（动态绑定）
+
+inheritance（继承）
+
+is-a relationships（是关系）
+
+multiple inheritance（多重继承）
+
+override（覆盖）
+
+polymorphism（多态）
+
+
+
+本章总结
+
+1. 可以从现有的类派生出新类。这被称为类的继承。新类被称为次类、子类或扩展类。现有类被称为超类、父类或基类
+
+2. 为了覆盖一个方法，必须使用与它的父类中的方法相同的方法名来定义子类中的方法
+
+3. object类是所有python类的基类。在object类中定义了__str__() 和 __eq__()方法
+
+4. 多态意味着一个子类对象可以传递给一个需要父类类型的参数。一个方法可能在一条继承链中不同的类中使用。python决定运行时调用哪个方法。
+这被称为动态绑定
+
+5. 可以使用isinstance函数测试一个对象是否是一个类的实例
+
+6. 类之间常见的关系是关联、聚合、组合和继承
