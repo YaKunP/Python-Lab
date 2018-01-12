@@ -1,0 +1,23 @@
+关键术语
+
+column index（列下标）
+
+multidimensional list（多维列表）
+
+nested list（嵌套列表）
+
+row index（行下标）
+
+two-dimensional list（二维列表）
+
+
+本章总结
+
+1. 二维列表能用来存储二维数据，例如： 一张表和一个矩阵
+
+2. 二维列表也是列表。二维列表中的元素是一个列表
+
+3. 二维列表中的元素可以使用下面的语法来访问：
+    listName[rowIndex][columnIndex]
+
+4. 可以利用一个列表的列表来形成多维列表以存储多维数据
