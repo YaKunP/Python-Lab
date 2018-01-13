@@ -1,0 +1,47 @@
+关键术语
+
+absolute filename（绝对文件名）
+
+binary file（二进制文件）
+
+deserializing（反序列化）
+
+directory path（目录路径）
+
+file pointer（文件指针）
+
+raw string（原始字符串）
+
+relative filename（相对文件名）
+
+serializing（序列化）
+
+text file（文本文件）
+
+traceback（回溯）
+
+
+
+本章总结
+
+1. 可以使用文件对象来从（向）文件读（写）数据。可以打开文件，用r模式进行读取，用w模式进行写入，用a模式进行追加
+
+2. 可以使用os.path.isfile(f)函数来检测一个文件是否存在
+
+3. Python中有一个文件类，该类包含了读写数据和关闭文件的方法
+
+4. 可以使用read()、readline()和readlines()方法从文件读取数据
+
+5. 可以使用write(s)方法来将一个字符串写入文件
+
+6. 在文件处理结束后关闭该文件以确保数据被正确保存
+
+7. 可以像从一个文件中读取数据一样从网页上读取资源
+
+8. 使用异常处理来捕获和处理运行时错误。将会抛出异常的代码放在try子句中，在except子句罗列出异常，并且在except子句中处理异常
+
+9. Python提供有像ZeroDivisionError、SyntaxError和RuntimeError这样的内置异常类。
+所有的Python异常类都直接或间接继承自BaseException类。也可以定义用户自己的异常类，自定义异常类扩展自BaseException类或它的子类，
+像RuntimeError
+
+10. 可以使用Python的pickle模块将对象存入一个文件。dump函数将对象写入文件而load函数将对象从文件中读出
